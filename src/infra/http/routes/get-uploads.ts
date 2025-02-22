@@ -1,4 +1,4 @@
-import { getUploads } from '@/app/functions/get-uploads/get-uploads';
+import { getUploads } from '@/app/functions';
 import { unwrapEither } from '@/shared/either';
 import type { FastifyPluginAsyncZod } from 'fastify-type-provider-zod';
 import { z } from 'zod';
